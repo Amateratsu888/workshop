@@ -1,0 +1,31 @@
+    body{
+    padding: 0;
+    margin:0 ;
+}
+.parent{
+    width: 100%;
+    height: 60vh;
+    margin-top: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.enfant1,.enfant2,.enfant3 {
+    height: 50vh;
+    width: 40vh;
+    margin-right: 4vh;
+    border-radius: 15px;
+    
+}
+.enfant1{
+    background-color: aqua;
+}
+.enfant2{
+    background-color:blue;
+}
+.enfant3{
+    background-color:black;
+}
+select{
+    border: none;
+}
